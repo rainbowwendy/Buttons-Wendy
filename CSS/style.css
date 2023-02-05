@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  size: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.flex-item {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 10px grey;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  font-size-adjust: none;
+  border: 5px solid rgb(191, 178, 178);
+  color: rgb(0, 255, 0);
+  border-radius: 30%;
+  text-decoration: none;
+  transition: 5s;
+}
+.button:active {
+  transform: scale(0.5);
+}
+.btn1 {
+  background-color: red;
+}
+.btn1:hover {
+  width: 200px;
+}
+.btn2 {
+  background-color: orange;
+}
+.btn2:hover {
+  width: 200px;
+}
+.btn3 {
+  background-color: yellow;
+}
+.btn3:hover {
+  width: 200px;
+}
+.btn4 {
+  background-color: green;
+}
+.btn4:hover {
+  width: 200px;
+}
+.btn5 {
+  background-color: blue;
+}
+.btn5:hover {
+  width: 200px;
+}
+.btn6 {
+  background-color: rgb(131, 131, 217);
+}
+.btn6:hover {
+  width: 200px;
+}
+.btn7 {
+  background-color: navy;
+}
+.btn7:hover {
+  width: 200px;
+}
+.btn8 {
+  background-color: purple;
+}
+.btn8:hover {
+  width: 200px;
+}
+.btn9 {
+  background-color: rgb(235, 146, 235);
+}
+.btn9:hover {
+  width: 200px;
+}
+.btn10 {
+  background-color: rgb(234, 191, 234);
+}
+.btn10 :hover {
+  width: 200px;
+}
